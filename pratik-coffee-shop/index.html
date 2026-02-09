@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Momo+Signature&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Pratik's Coffee Shop</title>
+</head>
+<body>
+    <section class="plot-container" id="home">
+<!-- Navbar  -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo-text">☕ Drift Coffee Co.</a>
+            <ul class="main-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+          
+        </nav>
+    </header>
+<!-- Hero Section -->
+    <main >
+        <section class="hero-section" id="hero">
+            <div class="hero-content" >
+                <h1 class="title">Premium Coffee</h1>
+                <h2 class="subtitle">
+                    Make your day great with our rich flavours of coffee!
+                </h2>
+                <h3 class="discription">
+                    Welcome to our coffee paradise, where every coffee bean tells a story and every cup sparks joy.
+                </h3>
+                <h3 class="discription">
+                    Our coffee is curlivated on the foothills of Coorg with love and handpicked by farmers to make your day special.
+                </h3>
+            </div>
+
+        </section>
+        <div class="buttons">
+            <a href="#" class="button order-now">Order Now</a>
+            <a href="#" class="button contact-us">Contact Us</a>
+        </div>
+    </main>
+</section>
+<!-- About Section-->
+<section class="about-section" id="about">
+    <div class="about-container">
+        <img src="images/about-us.png" alt="About" class="about-img">
+        <div class="about-content">
+            <h1 class="about-heading">
+                About Drift Coffee Co.
+            </h1>
+            <h3>
+                Drift Coffee Co. was born from the love of slow mornings, open roads, and the simple pleasure of a great cup of coffee. It’s a place for people who enjoy the pause between destinations — where rain on the window, the aroma of freshly brewed coffee, and the quiet hum of conversation come together.
+                <br><br>
+                Inspired by motorcycle culture and timeless cafés, Drift is more than just coffee. It’s about presence. About sitting down with a book, watching the world move outside, and finding comfort in the moment. Every cup we serve is crafted with intention, using quality beans, honest flavors, and no rush.
+                <br><br>
+                Whether you’re here after a long ride, meeting friends, or spending time with your thoughts, Drift Coffee Co. is your corner to slow down, breathe deep, and enjoy the ride — one sip at a time.
+            </h3>
+        </div>
+    </div>
+</section>
+
+<!-- Menu Section -->
+<section class="food-menu" id="menu">
+    <h1 class="menu-heading">Our Menu</h1>
+
+    <div class="food-item-list">
+
+        <div class="food-item">
+            <img src="images/menu-coffee.png" alt="Coffee">
+            <h3>Coffee</h3>
+            <p>We have a variety of different kinds of coffees brewed to perfection.</p>
+        </div>
+
+        <div class="food-item">
+            <img src="images/menu-icecream.png" alt="Ice Cream">
+            <h3>Ice Creams</h3>
+            <p>Cool off with our creamy ice creams served with love and flavor.</p>
+        </div>
+
+        <div class="food-item">
+            <img src="images/menu-burger.png" alt="Burgers">
+            <h3>Burgers</h3>
+            <p>Juicy burgers layered with fresh ingredients and bold taste.</p>
+        </div>
+
+        <div class="food-item">
+            <img src="images/menu-bakery.png" alt="Baked Goods">
+            <h3>Baked Goods</h3>
+            <p>Freshly baked pastries that melt in your mouth.</p>
+        </div>
+
+        <div class="food-item">
+            <img src="images/menu-sandwich.png" alt="Sandwiches">
+            <h3>Sandwiches</h3>
+            <p>Hearty sandwiches made with fresh bread and fillings.</p>
+        </div>
+
+        <div class="food-item">
+            <img src="images/menu-smoothie.png" alt="Smoothies">
+            <h3>Smoothies</h3>
+            <p>Refreshing fruit smoothies packed with natural goodness.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials-section" id="testimonials">
+    <h1 class="testimonials-heading">What Our Customers Say</h1>
+
+    <div class="testimonial-wrapper">
+        <button class="arrow left-arrow" onclick="slideLeft()">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <div class="testimonial-track-container">
+            <div class="testimonial-track">
+
+                <!-- 2 blanc cards and 9 reviews -->
+                <div class="testimonial-card">
+                    <!--<p>“Drift Coffee Co. feels like a pause button on a busy day.”</p>
+                    <h4>Rahul Mehta</h4>
+                    <span>Motorcycle Enthusiast</span>-->
+                </div>
+                <div class="testimonial-card">
+                    <p>“Drift Coffee Co. feels like a pause button on a busy day.”</p>
+                    <h4>Rahul Mehta</h4>
+                    <span>Motorcycle Enthusiast</span>
+                </div>
+
+                <div class="testimonial-card">
+                    <p>“The ambience, aroma, and calm feel intentional.”</p>
+                    <h4>Ananya Roy</h4>
+                    <span>Content Creator</span>
+                </div>
+
+                <div class="testimonial-card">
+                    <p>“Perfect place to read, sip, and slow down.”</p>
+                    <h4>Arjun Das</h4>
+                    <span>Frequent Visitor</span>
+                </div>
+
+                <div class="testimonial-card">
+                    <p>“Coffee that feels crafted, not rushed.”</p>
+                    <h4>Sneha Kapoor</h4>
+                    <span>Designer</span>
+                </div>
+
+                <div class="testimonial-card">
+                    <p>“Feels like a café made for thinkers.”</p>
+                    <h4>Rohan Sen</h4>
+                    <span>Writer</span>
+                </div>
+
+                <div class="testimonial-card">
+                    <p>“Rain, coffee, and peace — unbeatable combo.”</p>
+                    <h4>Pooja Malhotra</h4>
+                    <span>Photographer</span>
+                </div>
+
+                <div class="testimonial-card">
+                    <p>“Every visit feels familiar and warm.”</p>
+                    <h4>Amit Verma</h4>
+                    <span>Startup Founder</span>
+                </div>
+
+                <div class="testimonial-card">
+                    <p>“Drift is not a café, it’s a mood.”</p>
+                    <h4>Neha Iyer</h4>
+                    <span>UX Designer</span>
+                </div>
+
+                <div class="testimonial-card">
+                    <p>“Hands down my favorite coffee spot.”</p>
+                    <h4>Kunal Sharma</h4>
+                    <span>Product Manager</span>
+
+                </div>
+
+                <div class="testimonial-card">
+                    <!--<p>“Drift Coffee Co. feels like a pause button on a busy day.”</p>
+                    <h4>Rahul Mehta</h4>
+                    <span>Motorcycle Enthusiast</span>-->
+                </div>
+
+            </div>
+        </div>
+
+        <button class="arrow right-arrow" onclick="slideRight()">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+</section>
+
+<!-- Gallery -->
+ <section class="gallery-section" id="gallery">
+    <h2 class="gallery-title">Our Gallery</h2>
+
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="images/gal-img1.png" alt="Coffee Image">
+        </div>
+        <div class="gallery-item">
+            <img src="images/gal-img2.png" alt="Coffee Image">
+        </div>
+        <div class="gallery-item">
+            <img src="images/gal-img3.png" alt="Coffee Image">
+        </div>
+        <div class="gallery-item">
+            <img src="images/gal-img4.png" alt="Coffee Image">
+        </div>
+        <div class="gallery-item">
+            <img src="images/gal-img5.png" alt="Coffee Image">
+        </div>
+        <div class="gallery-item">
+            <img src="images/gal-img6.png" alt="Coffee Image">
+        </div>
+    </div>
+</section>
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+  <div class="contact-container">
+
+    <!-- Left Content -->
+    <div class="contact-text">
+      <h1>Let’s Talk</h1>
+      <p>
+        Whether you’re stopping by after a long ride, planning a visit,
+        or just want to say hello — we’d love to hear from you.
+        <br><br>
+        Drop us a message and we’ll get back to you over a warm cup of coffee.
+      </p>
+
+      <div class="contact-info">
+        <p><i class="fas fa-map-marker-alt"></i> Bengaluru, India</p>
+        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+        <p><i class="fas fa-envelope"></i> hello@driftcoffee.co</p>
+      </div>
+    </div>
+
+    <!-- Right Form -->
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>

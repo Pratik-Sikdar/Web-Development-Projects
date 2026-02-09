@@ -1,0 +1,190 @@
+/* common Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+    
+}
+
+/* Originally 1Rem = 16px, we will declair 1Rem = 10px*/
+
+html{
+    font-size: 62%;
+}
+
+:root{
+    /* Colors */
+    --white-color: #fff;
+    --dark-color: #252525;
+    --primary-color:#f3961c;
+
+    /* Site max width */
+    --site-max-width : 1300px;
+}
+
+.plot-container{
+   
+    flex-direction: column;
+    justify-content: center;
+    background: url('coffee-shop-img.png');
+    background-position: 90% 45%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+}
+/* Common Style Ends */
+
+/*=================================================*/
+
+/* Navbar */
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-weight: 800;
+    background-color: #252525;
+    height: 5rem;
+    opacity: 0.6;
+
+    }
+.navbar .logo-text{
+    color: var(--white-color);
+    font-size: 3rem;
+    font-family:  "Bricolage Grotesque", sans-serif;
+    font-weight: bolder;
+    margin-left: 3rem;
+}
+
+
+ .main-menu{
+    display: flex;
+    width: auto;
+    justify-content: flex-end;
+    gap: 4rem;
+    list-style: none;
+    margin-right: 6rem;
+ }
+
+ .navbar .nav-item .nav-link{
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 1.8rem;
+    border-radius: 3rem;
+    transition: 0.2s ease;
+ }
+ .navbar .nav-item .nav-link:hover{
+    background-color: rgb(80, 79, 77);
+     
+}
+/* End of Navbar */
+
+/*-----------------------------------------------*/
+
+/* Hero Section */
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem 3rem 1rem 15rem;
+    padding: 5rem;
+    background-color: rgb(157, 157, 183);
+    width: 40%;
+    height: relative;
+    opacity: 0.7;
+    border-radius: 4rem;
+    box-shadow: rgba(239, 239, 22, 0.17) 0px -23px 25px 0px inset, rgba(242, 46, 46, 0.15) 0px -36px 30px 0px inset, rgba(202, 67, 67, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    
+}
+
+.hero-content .title{
+    font-size: 6.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: rgb(245, 255, 205) 0.1em 0.1em 0.2em
+}
+.hero-content .subtitle{
+    font-size: 3.5rem;
+    font-weight: 570;
+    margin-bottom: 2.2rem;
+    text-shadow: rgb(245, 255, 205) 0.1em 0.1em 0.2em
+}
+.hero-content .discription{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.buttons{
+    display: flex;
+    width: 20%;
+    margin-left: 18rem; 
+    padding: 0.2rem;
+    justify-content: space-evenly;
+    
+}
+.buttons .button{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    background-color: #530d0d;
+    color: #f9efef;
+    border:0.2rem solid #eee6e6;
+    border-radius: 2rem;
+    display: inline-block;
+    box-shadow: 10px 10px 8px -5px rgba(188,48,48,0.34);
+    -webkit-box-shadow: 10px 10px 8px -5px rgba(234, 221, 221, 0.34);
+    -moz-box-shadow: 10px 10px 8px -5px rgba(188,48,48,0.34);
+    transition: 0.3s ease;
+}
+
+.buttons .button:hover {
+    background-color: #f9efef;
+    color: #471111;
+    font-weight: 750;
+    border:0.2rem solid #471111;
+    
+}
+/* hero section end */
+
+/*------------------------------------------------*/
+
+/* Responsive media query code for max width 900px */
+@media screen and (max-width:900px) {
+    .main-menu {
+        display:flexbox;
+        flex-direction: column;
+        position:fixed;
+        align-items: center;
+        justify-content: center;
+        left: 0;
+        top: 0;
+        width: 300px;
+        height: 100%;
+        background-color: #f5f2f2;
+        }
+
+    .navbar .nav-item .nav-link{
+    font-size: 3rem;
+    color: #190202;
+    padding: 1rem 1.8rem;
+    border-radius: 3rem;
+    transition: 0.2s ease;
+    }
+    .navbar .nav-item .nav-link:hover{
+    background-color: rgb(126, 86, 8);
+     
+        }
+    
+
+}
