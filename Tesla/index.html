@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Tesla</title>
+  </head>
+  <body>
+    <nav
+      class="flex w-full justify-between fixed top-0 z-10 h-[5.4rem] p-[2rem] items-center"
+    >
+      <!--logo-->
+      <img src="images/tesla.svg" alt="Tesla Logo" class="h-6" />
+
+      <!--navigation-->
+      <div class="text-2xl font-semibold">
+        <ul class="flex space-x-5">
+          <li class="hover:bg-opacity-10 hover:bg-gray-300 p-[0.5rem] transition duration-300 rounded-[0.5rem]">
+            <a href="#model-s">Model S</a>
+          </li>
+          <li class="hover:bg-opacity-10 hover:bg-gray-300 p-[0.5rem] transition duration-300 rounded-[0.5rem]">
+            <a href="#model-3">Model 3</a>
+          </li>
+          <li class="hover:bg-opacity-10 hover:bg-gray-300 p-[0.5rem] transition duration-300 rounded-[0.5rem]">
+            <a href="#model-x">Model X</a>
+          </li>
+          <li class="hover:bg-opacity-10 hover:bg-gray-300 p-[0.5rem] transition duration-300 rounded-[0.5rem]">
+            <a href="#model-y">Model Y</a>
+          </li>
+          <li class="hover:bg-opacity-10 hover:bg-gray-300 p-[0.5rem] transition duration-300 rounded-[0.5rem]">
+            <a href="#solar-roof">Solar Roof</a>
+          </li>
+          <li class="hover:bg-opacity-10 hover:bg-gray-300 p-[0.5rem] transition duration-300 rounded-[0.5rem]">
+            <a href="#solar-panels">Solar Panels</a>
+          </li>
+        </ul>
+      </div>
+
+      <!--EXTRA LINKS-->
+      <div class="text-2xl font-semibold">
+        <ul class="flex space-x-5">
+          <li class="hover:bg-opacity-10 hover:bg-gray-300 p-[0.5rem] transition duration-300 rounded-[0.5rem]">
+            <a href="#">Shop</a>
+          </li>
+          <li class="hover:bg-opacity-10 hover:bg-gray-300 p-[0.5rem] transition duration-300 rounded-[0.5rem]">
+            <a href="#">Account</a>
+          </li>
+          <li class="hover:bg-opacity-10 hover:bg-gray-300 p-[0.5rem] transition duration-300 rounded-[0.5rem]">
+            <a href="#">Menu</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Model S-->
+    <section id="model-s" class="w-full h-screen relative">
+      <img
+        src="images/ModelS.jfif"
+        alt="Model S Image"
+        class="w-full h-screen object-cover"
+      />
+      <div class="absolute top-40 left-1/2 transform -translate-x-1/2 text-center text-black">
+        <h1 class="text-5xl font-semibold">Model S</h1>
+        <h2 class="text-3xl mt-2">
+          Order Online for
+          <span class="underline underline-offset-2 cursor-pointer">Touchless Delivery</span>
+        </h2>
+      </div>
+      <div class="absolute bottom-35 left-1/2 transform -translate-x-1/2 flex gap-4 text-xl font-medium">
+        <button class="bg-black text-white px-15 py-3.5 rounded-full">Custom Order</button>
+        <button class="bg-white text-black px-15 py-3 rounded-full">Existing Inventory</button>
+        <!--bouncing arrow-->
+        <a href="#model-3">
+          <div class="absolute -bottom-35 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <img src="images/down.svg" alt="Down Arrow" class="h-20" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!--Model 3-->
+    <section id="model-3" class="w-full h-screen relative">
+      <img
+        src="images/Model3.jfif"
+        alt="Model 3 Image"
+        class="w-full h-screen object-cover"
+      />
+      <div class="absolute top-40 left-1/2 transform -translate-x-1/2 text-center text-black">
+        <h1 class="text-5xl font-semibold">Model 3</h1>
+        <h2 class="text-3xl mt-2">
+          Order Online for
+          <span class="underline underline-offset-2 cursor-pointer">Touchless Delivery</span>
+        </h2>
+      </div>
+      <div class="absolute bottom-35 left-1/2 transform -translate-x-1/2 flex gap-4 text-xl font-medium">
+        <button class="bg-black text-white px-15 py-3.5 rounded-full">Custom Order</button>
+        <button class="bg-white text-black px-15 py-3 rounded-full">Existing Inventory</button>
+        <!--bouncing arrow-->
+        <a href="#model-x">
+          <div class="absolute -bottom-35 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <img src="images/down.svg" alt="Down Arrow" class="h-20" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!--Model X-->
+    <section id="model-x" class="w-full h-screen relative">
+      <img
+        src="images/ModelX.jfif"
+        alt="Model X Image"
+        class="w-full h-screen object-cover"
+      />
+      <div class="absolute top-40 left-1/2 transform -translate-x-1/2 text-center text-black">
+        <h1 class="text-5xl font-semibold">Model X</h1>
+        <h2 class="text-3xl mt-2">
+          Order Online for
+          <span class="underline underline-offset-2 cursor-pointer">Touchless Delivery</span>
+        </h2>
+      </div>
+      <div class="absolute bottom-35 left-1/2 transform -translate-x-1/2 flex gap-4 text-xl font-medium">
+        <button class="bg-black text-white px-15 py-3.5 rounded-full">Custom Order</button>
+        <button class="bg-white text-black px-15 py-3 rounded-full">Existing Inventory</button>
+        <!--bouncing arrow-->
+        <a href="#model-y">
+          <div class="absolute -bottom-35 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <img src="images/down.svg" alt="Down Arrow" class="h-20" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!--Model Y-->
+    <section id="model-y" class="w-full h-screen relative">
+      <img
+        src="images/ModelY.jfif"
+        alt="Model Y Image"
+        class="w-full h-screen object-cover"
+      />
+      <div class="absolute top-40 left-1/2 transform -translate-x-1/2 text-center text-black">
+        <h1 class="text-5xl font-semibold">Model Y</h1>
+        <h2 class="text-3xl mt-2">
+          Order Online for
+          <span class="underline underline-offset-2 cursor-pointer">Touchless Delivery</span>
+        </h2>
+      </div>
+      <div class="absolute bottom-35 left-1/2 transform -translate-x-1/2 flex gap-4 text-xl font-medium">
+        <button class="bg-black text-white px-15 py-3.5 rounded-full">Custom Order</button>
+        <button class="bg-white text-black px-15 py-3 rounded-full">Existing Inventory</button>
+        <!--bouncing arrow-->
+        <a href="#solar-roof">
+          <div class="absolute -bottom-35 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <img src="images/down.svg" alt="Down Arrow" class="h-20" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!--Solar Roof-->
+    <section id="solar-roof" class="w-full h-screen relative">
+      <img
+        src="images/SolarRoof.jfif"
+        alt="Solar Roof Image"
+        class="w-full h-screen object-cover"
+      />
+      <div class="absolute top-40 left-1/2 transform -translate-x-1/2 text-center text-black">
+        <h1 class="text-5xl font-semibold">Solar Roof</h1>
+        <h2 class="text-3xl mt-2">Produce Clean Energy From Your Roof</h2>
+      </div>
+      <div class="absolute bottom-35 left-1/2 transform -translate-x-1/2 flex gap-4 text-xl font-medium">
+        <button class="bg-black text-white px-15 py-3.5 rounded-full">Order Now</button>
+        <button class="bg-white text-black px-15 py-3 rounded-full">Learn More</button>
+        <!--bouncing arrow-->
+        <a href="#solar-panels">
+          <div class="absolute -bottom-35 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <img src="images/down.svg" alt="Down Arrow" class="h-20" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!--Solar Panels-->
+    <section id="solar-panels" class="w-full h-screen relative">
+      <img
+        src="images/SolarPanels.jfif"
+        alt="Solar Panels Image"
+        class="w-full h-screen object-cover"
+      />
+      <div class="absolute top-40 left-1/2 transform -translate-x-1/2 text-center text-black">
+        <h1 class="text-5xl font-semibold">Solar Panels</h1>
+        <h2 class="text-3xl mt-2">Lowest Cost Solar Panels in America</h2>
+      </div>
+      <div class="absolute bottom-35 left-1/2 transform -translate-x-1/2 flex gap-4 text-xl font-medium">
+        <button class="bg-black text-white px-15 py-3.5 rounded-full">Order Now</button>
+        <button class="bg-white text-black px-15 py-3 rounded-full">Learn More</button>
+        <!--bouncing arrow up to top-->
+        <a href="#model-s">
+          <div class="absolute -bottom-35 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <img src="images/down.svg" alt="Up Arrow" class="h-20 rotate-180" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+  </body>
+</html>
